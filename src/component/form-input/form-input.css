@@ -1,0 +1,34 @@
+.item {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-title {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-subgroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-right {
+  margin-left: auto;
+  width: 100px;
+}
+
+.input-right-box {
+  margin-left: auto;
+  width: 100px;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+}
