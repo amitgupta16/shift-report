@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shift-report/static/css/main.7d23397f.chunk.css",
-    "main.js": "/shift-report/static/js/main.783ca3e3.chunk.js",
-    "main.js.map": "/shift-report/static/js/main.783ca3e3.chunk.js.map",
+    "main.css": "/shift-report/static/css/main.f2886763.chunk.css",
+    "main.js": "/shift-report/static/js/main.8d9d2653.chunk.js",
+    "main.js.map": "/shift-report/static/js/main.8d9d2653.chunk.js.map",
     "runtime-main.js": "/shift-report/static/js/runtime-main.5ab1f300.js",
     "runtime-main.js.map": "/shift-report/static/js/runtime-main.5ab1f300.js.map",
     "static/js/2.1269a241.chunk.js": "/shift-report/static/js/2.1269a241.chunk.js",
     "static/js/2.1269a241.chunk.js.map": "/shift-report/static/js/2.1269a241.chunk.js.map",
     "index.html": "/shift-report/index.html",
-    "static/css/main.7d23397f.chunk.css.map": "/shift-report/static/css/main.7d23397f.chunk.css.map",
+    "static/css/main.f2886763.chunk.css.map": "/shift-report/static/css/main.f2886763.chunk.css.map",
     "static/js/2.1269a241.chunk.js.LICENSE.txt": "/shift-report/static/js/2.1269a241.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ab1f300.js",
     "static/js/2.1269a241.chunk.js",
-    "static/css/main.7d23397f.chunk.css",
-    "static/js/main.783ca3e3.chunk.js"
+    "static/css/main.f2886763.chunk.css",
+    "static/js/main.8d9d2653.chunk.js"
   ]
 }
