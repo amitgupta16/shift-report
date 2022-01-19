@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 import ReportPicker from "../component/report-picker/report-picker.component";
 import ReportOutput from "../component/report-output/report-output.component";
@@ -70,16 +71,27 @@ class GetReport extends React.Component {
         <br />
         <ReportPicker handleChange={this.HandleChange} />
         <br />
-        <input type="button" onClick={this.HandleFind} value="Find"></input>
+        <input
+          className="submit button"
+          type="button"
+          onClick={this.HandleFind}
+          value="Find"
+        ></input>
         <span> </span>
-        <input type="button" onClick={this.HandleReset} value="Reset"></input>
+        <input
+          className="submit button"
+          type="button"
+          onClick={this.HandleReset}
+          value="Reset"
+        ></input>
         <br />
         <br />
 
         {this.state.isFindPressed && (
           <fieldset>
             <legend>
-              Operation Check Sheet: <strong>{this.state.line}</strong>
+              Operation Check Sheet:{" "}
+              <strong>{this.state.line.toLocaleUpperCase()}</strong>
             </legend>
             <label>
               Date: {this.state.date}, Shift: {this.state.shift}

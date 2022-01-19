@@ -10,17 +10,23 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/get">Get Report</Link>
-            </li>
-          </ul>
+          <div>
+            <ul className="navbar">
+              <li>
+                <Link to="/shift-report">Home</Link>
+              </li>
+              <li>
+                <Link to="/shift-report/get">Get Report</Link>
+              </li>
+              {/* <li className="right">
+                <Link to="/shift-report/get">Contact Me</Link>
+              </li> */}
+            </ul>
+          </div>
+
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/get" element={<GetReport />} />
+            <Route exact path="/shift-report" element={<Home />} />
+            <Route exact path="/shift-report/get" element={<GetReport />} />
           </Routes>
         </div>
       </Router>

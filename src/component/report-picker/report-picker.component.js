@@ -5,8 +5,7 @@ const ReportPicker = (props) => {
     <div>
       <label>Date:</label>
       <input type="date" name="date" onChange={handleChange}></input>
-      <br />
-
+      <span> </span>
       <label>Shift:</label>
       <input
         type="radio"
@@ -32,6 +31,7 @@ const ReportPicker = (props) => {
         value="C"
       />
       <label htmlFor="c">C</label>
+      <br />
       <br />
 
       <label htmlFor="line">Line:</label>

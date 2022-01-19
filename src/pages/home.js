@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 import FormInput from "../component/form-input/form-input.component";
 import ReportPicker from "../component/report-picker/report-picker.component";
@@ -78,7 +79,7 @@ class Home extends React.Component {
     }
 
     return (
-      <div>
+      <div className="App">
         <h3>Operation Check Sheet</h3>
         <br />
         <ReportPicker handleChange={this.HandleChange} />
@@ -86,7 +87,7 @@ class Home extends React.Component {
         <form onSubmit={this.HandleSubmit}>
           <fieldset>
             <legend>
-              <strong>{this.state.line}</strong>
+              <strong>{this.state.line.toLocaleUpperCase()}</strong>
             </legend>
 
             <div>
@@ -104,7 +105,7 @@ class Home extends React.Component {
               ))}
             </div>
 
-            <input type="submit" value="Submit"></input>
+            <input className="submit" type="submit" value="Submit"></input>
           </fieldset>
         </form>
       </div>
