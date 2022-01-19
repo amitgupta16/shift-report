@@ -97,6 +97,7 @@ class Home extends React.Component {
               {Line.map((data) => (
                 <FormInput
                   id={data.id}
+                  key={data.id}
                   controlItem={data.controlItem}
                   standard={data.standard}
                   checkingMethod={data.checkingMethod}
