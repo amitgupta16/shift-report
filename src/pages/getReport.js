@@ -66,7 +66,7 @@ class GetReport extends React.Component {
     }
 
     return (
-      <div>
+      <div className="App">
         <h3>Find Report</h3>
         <br />
         <ReportPicker handleChange={this.HandleChange} />
